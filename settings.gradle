@@ -1,0 +1,5 @@
+rootProject.name = 'DependencyInjectionInterfaceService'
+
+include ':interface'
+include ':service'
+include ':common'
