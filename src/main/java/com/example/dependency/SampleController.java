@@ -18,6 +18,7 @@ public class SampleController {
     private static final Logger logger = LoggerFactory.getLogger(SampleController.class);
 
     public SampleController(ISampleService sampleService) {
+
         this.sampleService = sampleService;
     }
 

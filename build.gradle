@@ -18,8 +18,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation project(':interface')
-	implementation project(':common')
+	implementation project(':service')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
